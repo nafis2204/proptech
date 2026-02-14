@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="gradient-hero text-hero-foreground">
@@ -8,10 +9,7 @@ const Footer = () => (
         {/* Brand */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-8 h-8 rounded-lg gradient-teal" />
-            <span className="font-heading font-bold text-lg">
-              Renovo<span className="text-accent">Proptech</span>
-            </span>
+            <img src={logo} alt="Renovo Proptech" className="h-8 w-auto invert" />
           </div>
           <p className="text-hero-muted text-sm leading-relaxed">
             Streamlining property and back-office operations with smart technology and expert ITES support.
