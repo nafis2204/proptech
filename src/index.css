@@ -6,77 +6,77 @@
 
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 210 50% 10%;
+    --background: 45 20% 97%;
+    --foreground: 40 10% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 50% 10%;
+    --card-foreground: 40 10% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 50% 10%;
+    --popover-foreground: 40 10% 8%;
 
-    --primary: 210 80% 15%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 40 10% 8%;
+    --primary-foreground: 48 96% 53%;
 
-    --secondary: 210 25% 93%;
-    --secondary-foreground: 210 50% 10%;
+    --secondary: 45 15% 92%;
+    --secondary-foreground: 40 10% 8%;
 
-    --muted: 210 20% 95%;
-    --muted-foreground: 210 15% 45%;
+    --muted: 45 12% 94%;
+    --muted-foreground: 40 8% 45%;
 
-    --accent: 175 70% 40%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 48 96% 53%;
+    --accent-foreground: 40 10% 8%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 210 20% 90%;
-    --input: 210 20% 90%;
-    --ring: 175 70% 40%;
+    --border: 45 15% 88%;
+    --input: 45 15% 88%;
+    --ring: 48 96% 53%;
 
     --radius: 0.625rem;
 
-    --sidebar-background: 210 80% 12%;
-    --sidebar-foreground: 210 20% 90%;
-    --sidebar-primary: 175 70% 40%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 60% 20%;
-    --sidebar-accent-foreground: 210 20% 90%;
-    --sidebar-border: 210 50% 20%;
-    --sidebar-ring: 175 70% 40%;
+    --sidebar-background: 40 10% 6%;
+    --sidebar-foreground: 45 15% 90%;
+    --sidebar-primary: 48 96% 53%;
+    --sidebar-primary-foreground: 40 10% 8%;
+    --sidebar-accent: 40 10% 14%;
+    --sidebar-accent-foreground: 45 15% 90%;
+    --sidebar-border: 40 10% 16%;
+    --sidebar-ring: 48 96% 53%;
 
     /* Custom tokens */
-    --hero-bg: 210 80% 12%;
+    --hero-bg: 40 10% 6%;
     --hero-foreground: 0 0% 100%;
-    --hero-muted: 210 30% 70%;
-    --teal: 175 70% 40%;
-    --teal-light: 175 60% 92%;
-    --teal-dark: 175 80% 28%;
-    --navy: 210 80% 15%;
-    --navy-light: 210 60% 25%;
-    --navy-dark: 210 90% 8%;
+    --hero-muted: 40 10% 65%;
+    --teal: 48 96% 53%;
+    --teal-light: 48 80% 92%;
+    --teal-dark: 48 96% 40%;
+    --navy: 40 10% 8%;
+    --navy-light: 40 10% 18%;
+    --navy-dark: 40 15% 4%;
   }
 
   .dark {
-    --background: 210 90% 6%;
-    --foreground: 210 20% 95%;
-    --card: 210 80% 10%;
-    --card-foreground: 210 20% 95%;
-    --popover: 210 80% 10%;
-    --popover-foreground: 210 20% 95%;
-    --primary: 175 70% 40%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 210 50% 15%;
-    --secondary-foreground: 210 20% 95%;
-    --muted: 210 40% 15%;
-    --muted-foreground: 210 20% 60%;
-    --accent: 175 70% 40%;
-    --accent-foreground: 0 0% 100%;
+    --background: 40 15% 4%;
+    --foreground: 45 15% 95%;
+    --card: 40 10% 8%;
+    --card-foreground: 45 15% 95%;
+    --popover: 40 10% 8%;
+    --popover-foreground: 45 15% 95%;
+    --primary: 48 96% 53%;
+    --primary-foreground: 40 10% 8%;
+    --secondary: 40 10% 12%;
+    --secondary-foreground: 45 15% 95%;
+    --muted: 40 10% 12%;
+    --muted-foreground: 40 10% 55%;
+    --accent: 48 96% 53%;
+    --accent-foreground: 40 10% 8%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 210 40% 18%;
-    --input: 210 40% 18%;
-    --ring: 175 70% 40%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 40 10% 16%;
+    --input: 40 10% 16%;
+    --ring: 48 96% 53%;
   }
 }
 
@@ -96,24 +96,24 @@
 
 @layer utilities {
   .gradient-hero {
-    background: linear-gradient(135deg, hsl(210 90% 8%) 0%, hsl(210 80% 15%) 50%, hsl(210 60% 22%) 100%);
+    background: linear-gradient(135deg, hsl(40 15% 4%) 0%, hsl(40 10% 8%) 50%, hsl(40 10% 14%) 100%);
   }
 
   .gradient-teal {
-    background: linear-gradient(135deg, hsl(175 70% 40%) 0%, hsl(175 80% 28%) 100%);
+    background: linear-gradient(135deg, hsl(48 96% 53%) 0%, hsl(48 96% 40%) 100%);
   }
 
   .gradient-card {
-    background: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 20% 97%) 100%);
+    background: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(45 20% 97%) 100%);
   }
 
   .text-gradient-teal {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(175 70% 40%), hsl(175 60% 55%));
+    background-image: linear-gradient(135deg, hsl(48 96% 53%), hsl(45 90% 60%));
   }
 
   .shadow-teal {
-    box-shadow: 0 8px 30px -8px hsl(175 70% 40% / 0.3);
+    box-shadow: 0 8px 30px -8px hsl(48 96% 53% / 0.3);
   }
 
   .shadow-card {
