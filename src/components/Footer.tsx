@@ -64,7 +64,13 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-hero-muted/20 mt-12 pt-8 text-center text-sm text-hero-muted">
-        © {new Date().getFullYear()} Renovo Proptech Ltd. All rights reserved.
+        <p>© {new Date().getFullYear()} Renovo Proptech Ltd. All rights reserved.</p>
+        <p className="mt-1">
+          Developed by{" "}
+          <a href="https://rosetech.dev" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
+            RoseTech Solutions Ltd
+          </a>
+        </p>
       </div>
     </div>
   </footer>
