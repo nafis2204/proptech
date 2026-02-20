@@ -199,7 +199,9 @@ const Index = () => {
             description="Property management companies, real estate firms, and BPO clients trust Renovo Proptech to deliver results." />
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center opacity-40">
-            {["Property Corp", "RealEstate Pro", "US Homes Inc", "CanadaRealty"].map((name) => {}
+            {["Property Corp", "RealEstate Pro", "US Homes Inc", "CanadaRealty"].map((name) => (
+              <div key={name} className="bg-muted rounded-lg px-6 py-4 text-center font-heading font-semibold text-muted-foreground">{name}</div>
+            )
 
             )}
           </div>
