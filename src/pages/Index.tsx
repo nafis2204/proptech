@@ -80,13 +80,10 @@ const Index = () => {
             </motion.p>
             <motion.div variants={fadeUp} custom={3} className="flex flex-wrap gap-4">
               <Button size="lg" className="bg-accent text-accent-foreground hover:bg-teal-dark shadow-teal" asChild>
-                <Link to="/membership">Join as Member</Link>
+                <Link to="/services">Our Services</Link>
               </Button>
               <Button size="lg" variant="outline" className="border-hero-muted/30 text-hero-foreground hover:bg-hero-foreground/10" asChild>
                 <Link to="/contact">Book a Demo</Link>
-              </Button>
-              <Button size="lg" variant="ghost" className="text-hero-muted hover:text-hero-foreground" asChild>
-                <Link to="/partner">Become a Partner <ArrowRight className="ml-2 h-4 w-4" /></Link>
               </Button>
             </motion.div>
           </motion.div>
@@ -159,33 +156,17 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Membership CTA */}
+      {/* CTA */}
       <section className="py-20 bg-background">
         <div className="container">
           <div className="rounded-2xl bg-teal-light p-10 md:p-16 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="max-w-lg">
-              <h2 className="font-heading font-bold text-3xl text-foreground mb-4">Unlock PropTech Tools with 
-
-              </h2>
-              <p className="text-muted-foreground mb-2">we give you instant access to our ITES services and PropTech automation tools. Upgrade to premium for advanced features.
-
-              </p>
-              <ul className="space-y-2 mt-4">
-                {["Access to automation dashboards", "ITES service integration", "Priority support channel", "Premium upgrade available"].map((f) =>
-                <li key={f} className="flex items-center gap-2 text-sm text-foreground">
-                    <CheckCircle className="h-4 w-4 text-accent" /> {f}
-                  </li>
-                )}
-              </ul>
+              <h2 className="font-heading font-bold text-3xl text-foreground mb-4">Ready to Streamline Your Operations?</h2>
+              <p className="text-muted-foreground mb-2">Get in touch to learn how our ITES services and PropTech automation tools can transform your business.</p>
             </div>
-            <div className="flex flex-col gap-3">
-              <Button size="lg" className="bg-accent text-accent-foreground hover:bg-teal-dark shadow-teal" asChild>
-                <Link to="/membership">Sign Up for Membership</Link>
-              </Button>
-              <Button size="lg" variant="outline" asChild>
-                <Link to="/contact">Book a Demo</Link>
-              </Button>
-            </div>
+            <Button size="lg" className="bg-accent text-accent-foreground hover:bg-teal-dark shadow-teal" asChild>
+              <Link to="/contact">Get Started</Link>
+            </Button>
           </div>
         </div>
       </section>
@@ -199,11 +180,9 @@ const Index = () => {
             description="Property management companies, real estate firms, and BPO clients trust Renovo Proptech to deliver results." />
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center opacity-40">
-            {["Property Corp", "RealEstate Pro", "US Homes Inc", "CanadaRealty"].map((name) => {}
-
-
-
-            )}
+            {["Property Corp", "RealEstate Pro", "US Homes Inc", "CanadaRealty"].map((name) => (
+              <div key={name} className="font-heading font-bold text-lg text-foreground">{name}</div>
+            ))}
           </div>
         </div>
       </section>
