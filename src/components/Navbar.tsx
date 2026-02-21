@@ -7,8 +7,6 @@ import logo from "@/assets/logo.png";
 const navLinks = [
   { label: "Home", to: "/" },
   { label: "Services", to: "/services" },
-  { label: "Membership", to: "/membership" },
-  { label: "Partner", to: "/partner" },
   { label: "About", to: "/about" },
   { label: "Careers", to: "/careers" },
   { label: "Contact", to: "/contact" },
@@ -43,9 +41,6 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex items-center gap-3">
-          <Button variant="outline" size="sm" asChild>
-            <Link to="/membership">Join as Member</Link>
-          </Button>
           <Button size="sm" className="bg-accent text-accent-foreground hover:bg-teal-dark" asChild>
             <Link to="/contact">Book a Demo</Link>
           </Button>
@@ -79,9 +74,6 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="flex gap-3 mt-3">
-              <Button variant="outline" size="sm" className="flex-1" asChild>
-                <Link to="/membership" onClick={() => setMobileOpen(false)}>Join</Link>
-              </Button>
               <Button size="sm" className="flex-1 bg-accent text-accent-foreground hover:bg-teal-dark" asChild>
                 <Link to="/contact" onClick={() => setMobileOpen(false)}>Book a Demo</Link>
               </Button>
