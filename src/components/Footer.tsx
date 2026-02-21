@@ -22,10 +22,9 @@ const Footer = () => (
           <ul className="space-y-2 text-sm text-hero-muted">
             {[
               { label: "Services", to: "/services" },
-              { label: "Membership", to: "/membership" },
-              { label: "Become a Partner", to: "/partner" },
               { label: "About Us", to: "/about" },
               { label: "Careers", to: "/careers" },
+              { label: "Contact", to: "/contact" },
             ].map((l) => (
               <li key={l.to}>
                 <Link to={l.to} className="hover:text-accent transition-colors">{l.label}</Link>
