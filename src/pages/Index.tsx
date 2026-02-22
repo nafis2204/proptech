@@ -82,7 +82,7 @@ const Index = () => {
               <Button size="lg" className="bg-accent text-accent-foreground hover:bg-teal-dark shadow-teal" asChild>
                 <Link to="/services">Our Services</Link>
               </Button>
-              <Button size="lg" variant="outline" className="border-hero-muted/30 text-hero-foreground hover:bg-hero-foreground/10" asChild>
+              <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10" asChild>
                 <Link to="/contact">Book a Demo</Link>
               </Button>
             </motion.div>
