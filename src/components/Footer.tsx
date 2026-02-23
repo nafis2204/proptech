@@ -50,7 +50,7 @@ const Footer = () => (
           <ul className="space-y-3 text-sm text-hero-muted">
             <li className="flex items-start gap-2">
               <MapPin size={16} className="mt-0.5 shrink-0 text-accent" />
-              <span>Mokhakhali DOHS, 27 Road, House 351, 1st Floor, Dhaka, Bangladesh</span>
+              <span>Flat-1B, House 351, Road 27, Mokhakhali DOHS, Dhaka, Bangladesh</span>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} className="shrink-0 text-accent" />
