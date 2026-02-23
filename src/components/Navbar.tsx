@@ -31,8 +31,8 @@ const Navbar = () => {
               to={link.to}
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                 location.pathname === link.to
-                  ? "text-accent bg-accent/10"
-                  : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                ? "text-foreground font-semibold bg-accent/10"
+                : "text-muted-foreground hover:text-foreground hover:bg-muted"
               }`}
             >
               {link.label}
@@ -66,7 +66,7 @@ const Navbar = () => {
                 onClick={() => setMobileOpen(false)}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   location.pathname === link.to
-                    ? "text-accent bg-accent/10"
+                    ? "text-foreground font-semibold bg-accent/10"
                     : "text-muted-foreground hover:text-foreground"
                 }`}
               >
