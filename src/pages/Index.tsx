@@ -172,6 +172,7 @@ const Index = () => {
       </section>
 
       {/* Testimonials placeholder */}
+      {/*
       <section className="py-20 bg-muted">
         <div className="container">
           <SectionHeading
@@ -186,6 +187,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+    */}
+
     </Layout>);
 
 };
