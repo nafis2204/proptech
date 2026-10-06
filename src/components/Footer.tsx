@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Facebook } from "lucide-react";
+import { Mail, MapPin, Facebook, Linkedin } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => (
@@ -62,6 +62,18 @@ const Footer = () => (
               <Facebook size={16} className="shrink-0 text-accent" />
               <a href="https://www.facebook.com/share/1Bz3NaXRug/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
                 Facebook
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Linkedin size={16} className="shrink-0 text-accent" />
+              <a href="https://www.linkedin.com/company/proptechsolutionsltd/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                LinkedIn
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Mail size={16} className="shrink-0 text-accent" />
+              <a href="mailto:hr@proptechsol.com" className="hover:text-accent transition-colors">
+                Careers: hr@proptechsol.com
               </a>
             </li>
           </ul>

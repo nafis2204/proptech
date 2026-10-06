@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Mail, Clock, Facebook } from "lucide-react";
+import { MapPin, Mail, Clock, Facebook, Linkedin, Briefcase } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -104,9 +104,33 @@ const Contact = () => {
                 <div>
                   <h3 className="font-heading font-semibold text-foreground mb-1">Business Hours</h3>
                   <p className="text-muted-foreground text-sm">
-                    Sunday – Thursday: 9:00 AM – 6:00 PM (BST)<br />
-                    US business hours coverage available
+                    Monday – Friday: 8:00 PM – 5:00 AM (BST)<br />
+                    Aligned with US business hours
                   </p>
+                </div>
+              </motion.div>
+
+              <motion.div variants={fadeUp} custom={2} className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-lg bg-teal-light flex items-center justify-center shrink-0">
+                  <Linkedin className="h-6 w-6 text-accent" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-foreground mb-1">LinkedIn</h3>
+                  <a href="https://www.linkedin.com/company/proptechsolutionsltd/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
+                    Follow us on LinkedIn
+                  </a>
+                </div>
+              </motion.div>
+
+              <motion.div variants={fadeUp} custom={2} className="flex items-start gap-4 rounded-xl border-2 border-accent bg-teal-light p-4">
+                <div className="w-12 h-12 rounded-lg bg-accent flex items-center justify-center shrink-0">
+                  <Briefcase className="h-6 w-6 text-accent-foreground" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-foreground mb-1">Careers & HR</h3>
+                  <a href="mailto:hr@proptechsol.com" className="font-semibold text-foreground hover:underline">
+                    hr@proptechsol.com
+                  </a>
                 </div>
               </motion.div>
 

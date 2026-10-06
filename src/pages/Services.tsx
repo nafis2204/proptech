@@ -161,10 +161,10 @@ const Services = () => (
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button size="lg" className="bg-accent text-accent-foreground hover:bg-teal-dark shadow-teal" asChild>
-            <Link to="/membership">Join as Member</Link>
-          </Button>
-          <Button size="lg" variant="outline" className="border-hero-muted/30 text-hero-foreground hover:bg-hero-foreground/10" asChild>
             <Link to="/contact">Book a Demo</Link>
+          </Button>
+          <Button size="lg" variant="outline" className="border-accent bg-transparent text-accent hover:bg-accent/10 hover:text-accent" asChild>
+            <a href="mailto:hello@proptechsol.com">Email Us</a>
           </Button>
         </div>
       </div>
