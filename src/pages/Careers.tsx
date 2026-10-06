@@ -99,8 +99,11 @@ const Careers = () => (
           <p className="text-muted-foreground mb-6">
             Send your resume and cover letter to our HR team. We'd love to hear from you.
           </p>
+          <a href="mailto:hr@proptechsol.com" className="block font-heading font-extrabold text-2xl md:text-3xl text-foreground mb-6 hover:underline">
+            hr@proptechsol.com
+          </a>
           <Button size="lg" className="bg-accent text-accent-foreground hover:bg-teal-dark shadow-teal" asChild>
-            <a href="mailto:hello@proptechsol.com">Apply Now — hello@proptechsol.com</a>
+            <a href="mailto:hr@proptechsol.com">Apply Now</a>
           </Button>
         </div>
       </div>

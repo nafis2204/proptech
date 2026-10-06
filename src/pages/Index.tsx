@@ -80,11 +80,23 @@ const Index = () => {
             </motion.p>
             <motion.div variants={fadeUp} custom={3} className="flex flex-wrap gap-4">
               <Button size="lg" className="bg-accent text-accent-foreground hover:bg-teal-dark shadow-teal" asChild>
+                <Link to="/contact">Book a Demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              </Button>
+              <Button size="lg" variant="outline" className="border-accent bg-transparent text-accent hover:bg-accent/10 hover:text-accent" asChild>
                 <Link to="/services">Our Services</Link>
               </Button>
-              <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10" asChild>
-                <Link to="/contact">Book a Demo</Link>
-              </Button>
+            </motion.div>
+            <motion.div variants={fadeUp} custom={4} className="grid grid-cols-3 gap-4 mt-12 max-w-lg">
+              {[
+                { v: "60%", l: "Less manual work" },
+                { v: "99.9%", l: "Uptime" },
+                { v: "24/5", l: "US coverage" },
+              ].map((s) => (
+                <div key={s.l} className="rounded-xl border border-hero-muted/20 bg-hero-foreground/5 backdrop-blur-md p-4">
+                  <div className="font-heading font-extrabold text-2xl text-accent">{s.v}</div>
+                  <div className="text-xs text-hero-muted mt-1">{s.l}</div>
+                </div>
+              ))}
             </motion.div>
           </motion.div>
         </div>
