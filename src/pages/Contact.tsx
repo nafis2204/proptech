@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Mail, Clock } from "lucide-react";
+import { MapPin, Mail, Clock, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -79,8 +79,20 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-foreground mb-1">Email</h3>
-                  <a href="mailto:hello@renovoproptech.com" className="text-accent hover:underline">
-                    hello@renovoproptech.com
+                  <a href="mailto:hello@proptechsol.com" className="text-accent hover:underline">
+                    hello@proptechsol.com
+                  </a>
+                </div>
+              </motion.div>
+
+              <motion.div variants={fadeUp} custom={1} className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-lg bg-teal-light flex items-center justify-center shrink-0">
+                  <Facebook className="h-6 w-6 text-accent" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-foreground mb-1">Facebook</h3>
+                  <a href="https://www.facebook.com/share/1Bz3NaXRug/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
+                    Follow us on Facebook
                   </a>
                 </div>
               </motion.div>

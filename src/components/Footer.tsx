@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Facebook } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => (
@@ -9,7 +9,7 @@ const Footer = () => (
         {/* Brand */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <img src={logo} alt="Renovo Proptech" className="h-8 w-auto invert" />
+            <img src={logo} alt="PropTech Solutions" className="h-10 w-auto rounded-lg bg-card px-2 py-1" />
           </div>
           <p className="text-hero-muted text-sm leading-relaxed">
             Streamlining property and back-office operations with smart technology and expert ITES support.
@@ -54,8 +54,14 @@ const Footer = () => (
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} className="shrink-0 text-accent" />
-              <a href="mailto:hello@renovoproptech.com" className="hover:text-accent transition-colors">
-                hello@renovoproptech.com
+              <a href="mailto:hello@proptechsol.com" className="hover:text-accent transition-colors">
+                hello@proptechsol.com
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Facebook size={16} className="shrink-0 text-accent" />
+              <a href="https://www.facebook.com/share/1Bz3NaXRug/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                Facebook
               </a>
             </li>
           </ul>
@@ -63,7 +69,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-hero-muted/20 mt-12 pt-8 text-center text-sm text-hero-muted">
-        <p>© {new Date().getFullYear()} Renovo Proptech Ltd. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} PropTech Solutions Ltd. All rights reserved.</p>
         <p className="mt-1">
           Developed by{" "}
           <a href="https://rosetech.dev" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">

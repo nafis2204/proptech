@@ -57,7 +57,7 @@ const Careers = () => (
             Join Our Growing Team
           </motion.h1>
           <motion.p variants={fadeUp} custom={2} className="text-lg text-hero-muted">
-            Build your career in ITES, BPO, and PropTech with Renovo Proptech. We invest in your growth from day one.
+            Build your career in ITES, BPO, and PropTech with PropTech Solutions. We invest in your growth from day one.
           </motion.p>
         </motion.div>
       </div>
@@ -100,7 +100,7 @@ const Careers = () => (
             Send your resume and cover letter to our HR team. We'd love to hear from you.
           </p>
           <Button size="lg" className="bg-accent text-accent-foreground hover:bg-teal-dark shadow-teal" asChild>
-            <a href="mailto:hello@renovoproptech.com">Apply Now — hello@renovoproptech.com</a>
+            <a href="mailto:hello@proptechsol.com">Apply Now — hello@proptechsol.com</a>
           </Button>
         </div>
       </div>

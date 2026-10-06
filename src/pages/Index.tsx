@@ -130,7 +130,7 @@ const Index = () => {
         <div className="container">
           <SectionHeading
             light
-            label="Why Renovo Proptech"
+            label="Why PropTech Solutions"
             title="Built for Scale. Designed for Results."
             description="We combine deep domain expertise in real estate with cutting-edge technology to deliver measurable outcomes." />
 
@@ -178,7 +178,7 @@ const Index = () => {
           <SectionHeading
             label="Trusted By"
             title="Clients Across North America"
-            description="Property management companies, real estate firms, and BPO clients trust Renovo Proptech to deliver results." />
+            description="Property management companies, real estate firms, and BPO clients trust PropTech Solutions to deliver results." />
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center opacity-40">
             {["Property Corp", "RealEstate Pro", "US Homes Inc", "CanadaRealty"].map((name) => (
