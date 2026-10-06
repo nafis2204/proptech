@@ -157,7 +157,7 @@ const Services = () => (
       <div className="container text-center">
         <h2 className="font-heading font-bold text-3xl text-hero-foreground mb-4">Ready to Transform Your Operations?</h2>
         <p className="text-hero-muted text-lg mb-8 max-w-xl mx-auto">
-          Join hundreds of property management companies leveraging Renovo Proptech's expertise.
+          Join hundreds of property management companies leveraging PropTech Solutions's expertise.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button size="lg" className="bg-accent text-accent-foreground hover:bg-teal-dark shadow-teal" asChild>

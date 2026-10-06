@@ -27,7 +27,7 @@ const About = () => (
             Empowering Real Estate Through Technology
           </motion.h1>
           <motion.p variants={fadeUp} custom={2} className="text-lg text-hero-muted">
-            Renovo Proptech Ltd is a Dhaka-based ITES, BPO, and PropTech company serving the US and Canadian real estate markets.
+            PropTech Solutions Ltd is a Dhaka-based ITES, BPO, and PropTech company serving the US and Canadian real estate markets.
           </motion.p>
         </motion.div>
       </div>
@@ -87,7 +87,7 @@ const About = () => (
         <h2 className="font-heading font-bold text-3xl text-foreground mb-4">Our Location</h2>
         <p className="text-muted-foreground text-lg mb-2">Mokhakhali DOHS, 27 Road, House 351, 1st Floor</p>
         <p className="text-muted-foreground text-lg mb-2">Dhaka, Bangladesh</p>
-        <p className="text-accent font-medium">hello@renovoproptech.com</p>
+        <p className="text-accent font-medium">hello@proptechsol.com</p>
       </div>
     </section>
   </Layout>
