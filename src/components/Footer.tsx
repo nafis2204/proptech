@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Facebook } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => (
@@ -9,7 +9,7 @@ const Footer = () => (
         {/* Brand */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <img src={logo} alt="PropTech Solutions" className="h-8 w-auto" />
+            <img src={logo} alt="PropTech Solutions" className="h-10 w-auto rounded-lg bg-card px-2 py-1" />
           </div>
           <p className="text-hero-muted text-sm leading-relaxed">
             Streamlining property and back-office operations with smart technology and expert ITES support.
