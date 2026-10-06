@@ -58,6 +58,12 @@ const Footer = () => (
                 hello@proptechsol.com
               </a>
             </li>
+            <li className="flex items-center gap-2">
+              <Facebook size={16} className="shrink-0 text-accent" />
+              <a href="https://www.facebook.com/share/1Bz3NaXRug/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                Facebook
+              </a>
+            </li>
           </ul>
         </div>
       </div>
